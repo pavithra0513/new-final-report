@@ -1,21 +1,20 @@
 #  NLP-Based Resume Parsing Using Named Entity Recognition (NER)
 ## 1. Introduction
-Named Entity Recognition (NER) is a subfield of Natural Language Processing (NLP) focused on identifying and categorizing entities in unstructured text (e.g., names, dates, organizations, and skills). 
+Named Entity Recognition (NER) is a subfield of Natural Language Processing (NLP) that focuses on recognizing and categorizing entities(such as Names,Dates, Organization and Skills)in unstructured text. 
 
-This project addresses the inefficiency of traditional rule-based resume parsers when faced with inconsistent formats or ambiguous terms. We explore multiple machine learning and deep learning models including:
+This project tackles the inadequacy of traditional rule-based resume parsers when they encounter with inconsistent formats or ambiguous terms. Several deep learning and machine learning models are investigated ,which includes:
 
 - **CRF (Conditional Random Fields)**
 - **BiLSTM-CRF**
 - **Transformers (BERT, RoBERTa)**
-
-The models are benchmarked using data science principles like supervised learning, sequence labeling, and contextual embeddings.
+Data Science concepts such as contextual embeddings,supervised learning,sequence labeling are used to benchmark the models.
 ## 2. Methods
 
-This section describes the methodologies used, with attention to clarity and replicability.
+In this section we can tell about the five different methods that describes the methodologies used, with an emphasis on clarity and replicability.
 
 ### 2.1 Rule-Based Approach
 
-- Extracted entities like phone numbers and emails using regular expressions.
+- Extracted entities like phone numbers ,addresses and emails using regular expressions.
 - Fast and deterministic but fails with non-standard formats.
 
 ### 2.2 Conditional Random Fields (CRF)
